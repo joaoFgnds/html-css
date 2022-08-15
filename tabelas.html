@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- para criar tabelas usar table e cada linha é 
+    uma -->
+
+    <!-- voce pode modificar o tamanho da borda da table
+    com o border 
+    EXEMPLO <table border="2"> </table> -->
+
+    <h1>Tabela Funcionario</h1>
+
+    <table border="1" width="100%">
+        <tr>
+            <th>funcionario</th> 
+            <th>Salário</th>
+            <th>Objeto</th>
+            <th>senha</th><!-- th serve para diferencianção da primeira coluna de titulos  -->
+            
+        </tr>   <!-- tr vem de table row ou "linha da tabela " -->
+        
+        <tr>
+            <td>Romário</td><!-- table data com td voce define os dados da tabela-->
+            <td>R$1500</td><!-- cada td equivale a uma coluna da tabela -->
+            <td>carro</td>
+            <td>1234</td>
+        </tr>
+
+        <tr>
+            <td>Adalberto</td>
+            <td>R$6000,00</td>
+            <td>Moto</td>
+            <td>9028</td>
+        </tr>
+
+        <tr>
+            <td>Marge</td>
+            <td>R$5000,00</td>
+            <td>carro</td>
+            <td>1687</td>
+        </tr>
+
+        <tr>
+            <!-- rowspan faz com que ocupe mais de uma linha o conteudo -->
+            <td rowspan="2">desconto</td>
+            <td colspan="3">cupom1 -R$ 10</td>
+            <!-- colspan faz com que a coluna ocupe mais de uma coluna  -->
+        </tr>
+
+        <tr>
+            <td colspan="3">cupuom2 -R$ 12</td>
+        </tr>
+
+        <tr>
+            <td>Total:</td>
+            <td colspan="3">R$ 3.478</td>
+        </tr>
+
+    </table>
+    <br>
+<hr>
+    <!--  <img src="imagens/capa.png" width="100%"> -->
+    
+    <h1>Tabela Objetos</h1>
+
+    <table border="1" width="100%">
+
+        <tr>
+            <th>Preço</th>
+            <th>Objeto</th>
+        </tr>
+
+        <tr>
+            <td>R$ 150,00</td>
+            <td>Sapato</td>
+        </tr>
+
+        <tr>
+            <td>R$ 259,99</td>
+            <td>calça</td>
+        </tr>
+
+        <tr>
+            <td>R$ 99,99</td>
+            <td>Meia</td>
+        </tr>
+
+        
+        <tr>
+            <td>R$ 100,00</td>
+            <td>Boné</td>
+        </tr>
+
+        
+        <tr>
+            <td colspan="2">Total<p></p></td>
+            
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+
+    <h2>Login</h2>
+    <form action="exemplo.processa.php">
+        <!-- action serve para voce definir para que pagina voce gostaria de mandar -->
+
+        Login: <br>
+        <input type="text" name="login"><!-- o name é utilizado para passar os dados para uma proxima tela  -->
+        <br> <!-- bane é utilizaado para recuperar o que o usuario digitou -->
+
+        Senha: <br>
+
+        <input type="password" name="senha" id="">
+
+        <input type="button" value="logar"> <!-- submit serve para enviar os dados  -->
+
+
+    </form>
+
+    <form action="">
+        <hr>
+        <h2>Cadastre-se</h2>
+
+        Login: <br>
+        <input type="text" name="login">
+        <br>
+        <hr>
+        sexo: <br>
+        <input type="radio" name="sexo" value="M">Masculino
+        <!-- para que os dois radios nao fiquem marcados deve colocar o mesmo nome nos dois radios  -->
+        <input type="radio" name="sexo" value="F">Feminino
+        <!-- colocar o mesmo name voce consegue recuperar esses dados e saber o que o usuario digitou -->
+
+        Interreses <br>
+        <hr>
+        <input type="checkbox" name="Interreses">Futebol <br>
+
+        <input type="checkbox" name="Interreses">Cursos <br>
+
+        Estado <br>
+        <select name="Estado">
+
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="rs">RS</option>
+            <option value="st">ST</option>
+
+        </select>
+
+        Observações: <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit"value="cadastrar">
+    </form>
+</body>
+
+</html>
